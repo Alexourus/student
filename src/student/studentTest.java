@@ -34,7 +34,7 @@ public class studentTest {
                     System.out.println("Leaving The Program...");
                     return;
                 default:
-                    throw new AssertionError();
+                    System.out.println("you have made an invalid choice..");
             }
         }
     }
