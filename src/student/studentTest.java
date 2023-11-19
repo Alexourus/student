@@ -29,6 +29,7 @@ public class studentTest {
                     addStudent(students,newStudent);
                     break;
                 case 3:
+                    studentDeletion(students);
                     break;
                 case -1:
                     System.out.println("Leaving The Program...");
